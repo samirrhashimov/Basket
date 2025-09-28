@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("User logged in successfully");
       setTimeout(() => {
         window.location.href = "index.html";
-      }, 3000);
+      }, 2000);
     } 
     
     else {

@@ -27,6 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         localStorage.setItem("users", JSON.stringify(users));
         alert("Registration successful!");
+        setTimeout(() => {
+        window.location.href = "login.html";
+      }, 2000);
         form.reset();
     });
 });
