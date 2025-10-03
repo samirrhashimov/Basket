@@ -41,26 +41,51 @@ a {
   position: relative;
   z-index: 10;
 }
+.mynavbar .wrapper a i {
+  margin-right: 2px;
+}
 .mynavbar .wrapper .username {
   border: none;
   padding: 6px 10px;
   border-radius: 5px;
   background: #f1f1f1;
 }
-.mynavbar .wrapper .basketIcon {
-  position: relative;
-}
 .mynavbar .wrapper a sup {
-  font-size: 13px;
-  position: absolute;
-  top: 3px;
-  right: -15px;
+  color: red;
+  font-size: 15px;
 }
+
+.control-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.control-panel .search-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+.search-box input {
+  width: 100%;
+  border: 1px solid #a2a1a1;
+  border-right: none;
+  padding: 5px;
+  outline: none;
+}
+.search-box button {
+  border: 1px solid #a2a1a1;
+  border-left: none;
+  padding: 5px 15px;
+  border-radius: 0 !important;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .card {
